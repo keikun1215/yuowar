@@ -1,4 +1,4 @@
-　let state = [
+let state = [
   {
     name: "大日本帝国",
     alive: true
