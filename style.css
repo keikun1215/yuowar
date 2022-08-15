@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #eee;
+}
+* {
+  font-family: 'Arial', 'メイリオ';
+  margin: 0;
+}
+header {
+  background: rgba(61, 145, 255, .5);
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid rgba(48, 110, 191, .5);
+  overflow: scroll;
+  white-space: nowrap;
+}
+#links {
+  height: 25px;
+  background: rgba(61, 145, 255, .5);
+  border-bottom: 1px solid rgba(48, 110, 191, .5);
+  border-right: 1px solid rgba(48, 110, 191, .5);
+  overflow: scroll;
+  white-space: nowrap;
+}
+.link {
+  height: 100%;
+  border-right: 1px solid rgba(48, 110, 191, .5);
+  color: #000;
+}
+#header {
+  width: 100%;
+  position: fixed;
+}
+footer {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+footer > hr {
+  margin: 30px;
+}
+a {
+  text-decoration: none;
+  color:	#01AFF5;
+}
+a:hover {
+  text-decoration: underline;
+}
+#main {
+  padding-top: 90px;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+}
+#main > h2 {
+  margin-top: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+.alive {
+  width: auto;
+  border-left: 4px solid #30ffa9;
+  background: #eee;
+  padding: 5px;
+  display: table;
+}
+.alive::before {
+  content: "○";
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.inalive {
+  border-left: 4px solid #ff6363;
+  background: #ccc;
+  padding: 5px;
+  display: table;
+}
+.inalive::before {
+  content: "×";
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
