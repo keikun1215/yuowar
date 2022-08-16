@@ -28,6 +28,10 @@ let state = [
     alive: true
   },
   {
+    name: "ドイツ帝国",
+    alive: true
+  },
+  {
     name: "ジュピター",
     alive: false
   }
