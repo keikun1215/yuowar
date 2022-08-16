@@ -11,6 +11,7 @@ let state = [
   },
   {
     name: "ソビエト社会主義共和国連邦",
+    description: "なんか共産主義でやってます",
     alive: true
   },
   {
