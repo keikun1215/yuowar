@@ -40,3 +40,5 @@ setInterval(()=>{
   $("#st"+c).fadeIn(500);
   c++
 }, 500)
+ScrollReveal().reveal('h2', {origin:'bottom',reset:true,distance:'20px'});
+ScrollReveal().reveal('p', {duration:500,origin:'left',reset:true,distance:'10px'});
