@@ -17,7 +17,7 @@ let state = [
   {
     name: "ゲルマン帝国",
     description: "ゲルマン帝国は人は少ないですが、資源はちょっとあります、島は狭いですが、食料くらいはあります。銃かえる金くらいあるし、悪くはないです。",
-    alive: true
+    alive: false
   },
   {
     name: "へチョンへチョン国",
@@ -27,6 +27,10 @@ let state = [
     name: "Ash's Republic",
     alive: true
   },
+  {
+    name: "朝鮮民主主義人民共和国",
+    alive: true
+  }
   {
     name: "ドイツ帝国",
     alive: true
